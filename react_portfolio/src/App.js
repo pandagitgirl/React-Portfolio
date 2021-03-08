@@ -7,10 +7,12 @@ import Contact from "./contents/Contact";
 import Home from "./contents/Home";
 import About from "./contents/About";
 import Education from "./contents/Education";
+import Card from "./components/Card";
 import { FontAwesome } from 'react-icons/fa'
 
 function App() {
   return (
+    
     <Router>
       <div className="App">
         <Navbar />
@@ -36,6 +38,7 @@ function App() {
         </Route>
       </div>
     </Router>
+    
   );
 }
 

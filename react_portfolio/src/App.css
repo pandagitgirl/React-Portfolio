@@ -29,11 +29,7 @@ nav {
   padding: 60px 30px 0px 30px;
   flex: var(--sidebar-flex);
   background: #754de0;
-  background: linear-gradient(
-    180deg,
-    rgba(238, 103, 143, 1) 50%,
-    rgba(132, 124, 252, 1) 80%
-  );
+  background: linear-gradient(180deg, #654ea3 50%, #eaafc8 80%);
 }
 
 nav ul {
@@ -58,13 +54,14 @@ nav ul li {
   bottom: 60px;
 }
 .social i {
+  height: 200px;
   padding-right: 30px;
   font-size: 25px;
   color: #9a9b9c;
 }
-.social i:hover {
+/* .social i:hover {
   color: #ffffff;
-}
+} */
 .subtopic {
   margin: 10px 10px 30px 10px !important;
 }

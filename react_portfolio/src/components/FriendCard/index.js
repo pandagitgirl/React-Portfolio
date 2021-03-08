@@ -1,10 +1,7 @@
-import React, { Component } from "react";
-// import { Row, Col, Card } from "../contents/Skills"
+import React from "react";
+import "./style.css";
 
-
-// class Card extends Component {
- 
-function Card(props) {
+function FriendCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -28,5 +25,4 @@ function Card(props) {
   );
 }
 
-export default Card;
-
+export default FriendCard;
