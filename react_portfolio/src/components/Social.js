@@ -21,6 +21,13 @@ class Social extends Component {
         <a href="" target="_blank">
           <i class="fab fa-medium-m"></i>
         </a>
+        <Link className="btn btn-link">PDF</Link>{"https://drive.google.com/file/d/1k01ZCPOJ4KXtjWQhqw1ipdAThzb3W-GS/view?usp=sharing"}
+        <a href="https://drive.google.com/file/d/1k01ZCPOJ4KXtjWQhqw1ipdAThzb3W-GS/view?usp=sharing" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="" target="_blank">
+          <i class="fab fa-medium-m"></i>
+        </a>
       </div>
     );
   }
