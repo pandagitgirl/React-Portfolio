@@ -1,8 +1,10 @@
 import React from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 function FriendCard(props) {
   return (
+
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
@@ -10,18 +12,21 @@ function FriendCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>The Taste of Music</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <Link className="btn btn-link"></Link>{"https://enevarez-ops.github.io/projectOne/"}
+        <a href="https://enevarez-ops.github.io/projectOne/" target="_blank"></a>
+            {/* <strong>Title:</strong> {props.occupation} */}
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            {/* <strong>Address:</strong> {props.location} */}
           </li>
         </ul>
       </div>
       <span className="remove">𝘅</span>
-    </div>
+      </div>
+    
   );
 }
 
