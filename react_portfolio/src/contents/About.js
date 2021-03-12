@@ -13,8 +13,7 @@ class About extends Component {
         </h3>
         <br></br>
         <p>
-         Aspiring Full Stack Web Developer from Denver Colorado. 
-
+        Full Stack Web Developer from Denver Colorado. 
         </p>
       </div>
     );
