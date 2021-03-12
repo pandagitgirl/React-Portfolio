@@ -25,6 +25,7 @@ class Skills extends Component {
             return <li>{value}</li>;
           })}
         </ul>
+        <h1>Projects</h1>
         {db.map((value) => {
           return <ProjectCard title={value.Title} image={value.Image} />
         })}
