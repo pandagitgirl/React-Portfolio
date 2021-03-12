@@ -7,7 +7,7 @@ import Contact from "./contents/Contact";
 import Home from "./contents/Home";
 import About from "./contents/About";
 import Education from "./contents/Education";
-import Card from "./components/Card";
+import ProjectCard from "./components/ProjectCard";
 import { FontAwesome } from 'react-icons/fa'
 
 function App() {

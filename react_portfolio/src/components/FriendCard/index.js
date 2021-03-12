@@ -25,8 +25,31 @@ function FriendCard(props) {
         </ul>
       </div>
       <span className="remove">𝘅</span>
-      </div>
     
+    
+
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Top Board Games</strong> {props.name}
+          </li>
+          <li>
+            <Link className="btn btn-link"></Link>{"https://github.com/gsteed1677/top-boardgames"}
+        <a href="https://github.com/gsteed1677/top-boardgames" target="_blank"></a>
+            {/* <strong>Title:</strong> {props.occupation} */}
+          </li>
+          <li>
+            {/* <strong>Address:</strong> {props.location} */}
+          </li>
+        </ul>
+      </div>
+      <span className="remove">𝘅</span>
+      </div>
+      </div>
   );
 }
 
